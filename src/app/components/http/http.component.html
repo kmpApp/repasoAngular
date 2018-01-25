@@ -1,0 +1,20 @@
+<p>
+  http works! Http
+</p>
+
+<!--
+<code> {{_ms.mutantes | json }} </code>
+-->
+
+<div class="card-deck">
+
+  <div class="card" *ngFor="let m of _ms.mutantes">
+    <div class="card-block">
+      <h1 class="card-title">
+        <small>{{m.nombre}}</small>
+      </h1>
+      <p>{{m.descripcion}}</p>
+    </div>
+  </div>
+
+</div>
