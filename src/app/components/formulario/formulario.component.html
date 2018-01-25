@@ -7,8 +7,14 @@
   <span class="input-group-addon"></span>
 
   <input type="text"
+         style="margin-right:20px"
          class="form-control"
          placeholder="Escribe algo aqui!"
          [(ngModel)]="cambiante">
+
+
+    <button type="button" class="btn btn-primary"
+            [disabled] = "cambiante =='' "
+            (click)=limpiar();>Limpiar</button>
 
 </div>

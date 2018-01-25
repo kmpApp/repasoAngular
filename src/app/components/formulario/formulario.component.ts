@@ -11,4 +11,9 @@ export class FormularioComponent  {
 
   cambiante:string  =  "";
 
+
+  limpiar(){
+    this.cambiante = "";
+  }
+
 }
