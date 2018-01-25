@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { VariablesComponent } from './components/variables/variables.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
+import { AtributosComponent } from './components/atributos/atributos.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { FormularioComponent } from './components/formulario/formulario.componen
     AppComponent,
     NavbarComponent,
     VariablesComponent,
-    FormularioComponent
+    FormularioComponent,
+    AtributosComponent
   ],
   imports: [
     BrowserModule,
