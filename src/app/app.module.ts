@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { VariablesComponent } from './components/variables/variables.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { AtributosComponent } from './components/atributos/atributos.component';
+import { EstructuralesComponent } from './components/estructurales/estructurales.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { AtributosComponent } from './components/atributos/atributos.component';
     NavbarComponent,
     VariablesComponent,
     FormularioComponent,
-    AtributosComponent
+    AtributosComponent,
+    EstructuralesComponent
   ],
   imports: [
     BrowserModule,

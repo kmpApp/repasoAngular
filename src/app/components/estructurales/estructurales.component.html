@@ -1,0 +1,19 @@
+<h1><small>--> ngIf application</small></h1>
+<p *ngIf="existo">
+  si existo :)
+</p>
+
+<p *ngIf="!existo">
+ no existo :´(
+</p>
+
+<button type="button" class="btn btn-primary"
+        (click) = "existo = !existo">cambiar</button>
+
+<h1><small>--> ngFor basic application application</small></h1>
+
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let eat of eats; let i = index">
+    {{i}} -->  {{eat}}
+  </li>
+</ul>

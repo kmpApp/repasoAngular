@@ -10,6 +10,7 @@ export class AtributosComponent  {
   constructor() { }
 
   url_img:string = "assets/img/candidate.png";
+  alt_img:string = "";
 
 
 }
