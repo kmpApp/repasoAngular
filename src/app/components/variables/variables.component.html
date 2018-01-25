@@ -1,0 +1,24 @@
+<table class="table table-light">
+<tr>
+  <td>Nombre</td>
+  <td>edad</td>
+</tr>
+<tr>
+  <td>{{nombre}}</td>
+  <td>{{edad}}</td>
+</tr>
+<tr>
+  <td>{{nombre | uppercase}}</td>
+  <td>{{edad}}</td>
+</tr>
+<tr>
+  <td>Aumenta edad:</td>
+  <td>
+    <button type="button"
+            class="btn btn-primary"
+            (click)="cuadradoEdad();"
+              >Pulsame!</button>
+
+  </td>
+</tr>
+</table>
